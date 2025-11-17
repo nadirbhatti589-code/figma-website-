@@ -1,0 +1,434 @@
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    .navbar-brand {
+      font-weight: 700;
+      color: #0d6efd;
+      letter-spacing: 1.5px;
+    }
+    .btn-primary {
+      background-color: #0d6efd;
+      border: none;
+    }
+    .hero-section {
+      padding: 5rem 0 4rem 0;
+    }
+    .hero-title {
+      font-size: 2.75rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #212529;
+    }
+    .hero-title .text-primary {
+      color: #0d6efd;
+    }
+    .hero-subtitle {
+      margin-top: 1rem;
+      font-size: 1.125rem;
+      color: #6c757d;
+      max-width: 420px;
+    }
+    .app-btn {
+      margin-right: 1rem;
+      background-color: #212529;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+    }
+    .app-btn:hover {
+      background-color: #0d6efd;
+      text-decoration: none;
+      color: #fff;
+    }
+    .app-btn i {
+      font-size: 1.25rem;
+    }
+    .hero-car {
+      max-width: 100%;
+      height: auto;
+      filter: drop-shadow(0 10px 15px rgba(0,0,0,0.15));
+    }
+    .steps-icons {
+      font-size: 2.4rem;
+      color: #0d6efd;
+    }
+    .step-title {
+      font-weight: 600;
+      margin-top: 0.75rem;
+    }
+    .step-desc {
+      font-size: 0.95rem;
+      color: #6c757d;
+      max-width: 220px;
+      margin: 0 auto;
+      margin-top: 0.2rem;
+    }
+    .brand-logos img {
+      max-height: 50px;
+      opacity: 0.7;
+      margin: 0 1rem;
+      transition: opacity 0.3s;
+    }
+    .brand-logos img:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+    .experience-section {
+      background: #f8f9fa;
+      padding: 4rem 0;
+    }
+    .exp-list li {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+      color: #212529;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .exp-list li i {
+      color: #0d6efd;
+      font-size: 1.3rem;
+    }
+    .card-rent {
+      border-radius: 15px;
+      box-shadow: 0 3px 15px rgb(0 0 0 / 0.1);
+      transition: box-shadow 0.3s ease;
+    }
+    .card-rent:hover {
+      box-shadow: 0 10px 25px rgb(13 110 253 / 0.3);
+    }
+    .card-rent img {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      object-fit: cover;
+      max-height: 160px;
+      width: 100%;
+    }
+    .card-body-rent {
+      padding: 1rem 1.5rem 1.5rem 1.5rem;
+      text-align: center;
+    }
+    .car-title {
+      font-weight: 600;
+      font-size: 1.15rem;
+    }
+    .car-price {
+      font-size: 1.2rem;
+      color: #0d6efd;
+      font-weight: 700;
+      margin-top: 0.4rem;
+      margin-bottom: 1rem;
+    }
+    .testimonial-card {
+      background: #f8f9fa;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      max-width: 320px;
+      margin: 1rem auto;
+    }
+    .testimonial-rating {
+      font-weight: 700;
+      color: #0d6efd;
+      margin-bottom: 0.8rem;
+    }
+    .testimonial-text {
+      font-style: italic;
+      color: #6c757d;
+    }
+    .testimonial-img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 10px rgb(0 0 0 / 0.15);
+    }
+    .testimonial-name {
+      font-weight: 600;
+      font-size: 1.15rem;
+      margin-bottom: 0.25rem;
+    }
+    .download-section {
+      background: #ffffff;
+      color: white;
+      padding: 4rem 0;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .download-section h2 {
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+    .download-section p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+    .download-btn {
+      background-color: #212529;
+      color: white;
+      font-weight: 600;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin: 0 0.8rem;
+      font-size: 1.1rem;
+      transition: background-color 0.3s;
+    }
+    .download-btn:hover {
+      background-color: #fff;
+      color: #0d6efd;
+      text-decoration: none;
+    }
+    .download-btn i {
+      font-size: 1.5rem;
+    }
+    .download-car-img {
+      max-width: 300px;
+      margin-top: 3rem;
+      filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));
+    }
+    footer {
+      background: #0b1221;
+      color: #adb5bd;
+      padding: 3rem 1rem 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #adb5bd;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    footer a:hover {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+    footer hr {
+      border-color: rgba(255,255,255,0.1);
+      margin: 2rem 0;
+    }
+    footer h5, footer h6 {
+      color: white;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .footer-social-icons a {
+      font-size: 1.6rem;
+      margin-right: 1.2rem;
+      color: #adb5bd;
+    }
+    .footer-social-icons a:hover {
+      color: #0d6efd;
+    }
+    @media (max-width: 991px) {
+      .hero-title {
+        font-size: 2rem;
+      }
+      .download-car-img {
+        margin-top: 2rem;
+        max-width: 220px;
+      }
+    }
+.container {
+  justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    .download-section .container {
+      background-color: #ffffff;
+    }
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #1f1f1f;
+  line-height: 1.5;
+}
+
+.download-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 60px auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+/* Large star background shape */
+.download-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 500px;
+  height: 500px;
+  background: url('data:image/svg+xml;utf8,<svg fill="%23e6f0ff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36-17.7 54.6l105.7 103-25 145.5c-4.5 26.2 23 46 46.4 33.7L288 439.6l130.7 68.7c23.4 12.3 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.6 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"/></svg>') no-repeat center;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.15;
+}
+
+.content-wrapper {
+  max-width: 520px;
+  position: relative;
+  z-index: 1;
+}
+
+.download-tag {
+  display: inline-block;
+  background-color: #d7e5f9;
+  color: #1570f0;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 6px 16px;
+  border-radius: 6px;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+  user-select: none;
+}
+
+.main-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 12px;
+  color: #1f1f1f;
+}
+
+.main-heading .highlight {
+  color: #1570f0;
+}
+
+.tagline {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #5f5f5f;
+  margin-bottom: 32px;
+}
+
+.app-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.app-btn img {
+  height: 50px;
+  width: auto;
+  display: block;
+  user-select: none;
+}
+
+/* Phone mockup container */
+.phone-mockup {
+  position: relative;
+  width: 320px;
+  height: 710px;
+  background: #000;
+  border-radius: 68px;
+  box-shadow:
+    0 0 0 14px #000,
+    0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Car image inside phone */
+.phone-car {
+  max-width: 280px;
+  max-height: 620px;
+  border-radius: 32px;
+  object-fit: contain;
+  position: relative;
+  z-index: 2;
+}
+
+/* Phone notch - top center black pill shape */
+.phone-mockup::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 130px;
+  height: 36px;
+  background: #000;
+  border-radius: 36px / 20px;
+  z-index: 3;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Phone indicators (time, wifi, battery) - simplified static representation */
+.phone-mockup::after {
+  content: "10:01";
+  position: absolute;
+  top: 21px;
+  left: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  z-index: 3;
+}
+
+/* Optional icons on phone screen - simplified circles */
+.phone-mockup .icon-left,
+.phone-mockup .icon-right {
+  position: absolute;
+  top: 72px;
+  width: 36px;
+  height: 36px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  cursor: default;
+  user-select: none;
+  z-index: 3;
+}
+
+.phone-mockup .icon-left {
+  left: 30px;
+}
+
+.phone-mockup .icon-right {
+  right: 30px;
+}
+
+.phone-mockup .icon-left::before {
+  content: "<";
+  font-size: 18px;
+  color: #444;
+  user-select: none;
+}
+
+.phone-mockup .icon-right::before {
+  content: "♥";
+  font-size: 20px;
+  color: #444;
+  user-select: none;
+}
